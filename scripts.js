@@ -19,14 +19,11 @@ $(document).ready(function() {
             $(this).parent().remove();
         });
     $('#container').on('click', '.swapButton', function() {
-        console.log($(this).parent());
-        if ($(this).parent().css('background-color') == 'yellow' || undefined) {
+        //console.log($(this).parent().css('backgroundColor'));
+        if ($(this).parent().css('background-color') == 'rgb(255, 255, 0)' || undefined) {
             $(this).parent().css('background-color', 'red');
-        } else if ($(this).parent().css('background-color') == 'red') {
-            $(this).parent().css('background-color', 'yellow');
-        } else {
-           // $(this).parent().css('background-color', 'red');
-        }
+        } else if ($(this).parent().css('backgroundColor') == 'rgb(255, 0, 0)') {
+            $(this).parent().css('backgroundColor', 'yellow');
     });
 });
 
