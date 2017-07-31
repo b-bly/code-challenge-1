@@ -24,6 +24,7 @@ $(document).ready(function() {
             $(this).parent().css('background-color', 'red');
         } else if ($(this).parent().css('backgroundColor') == 'rgb(255, 0, 0)') {
             $(this).parent().css('backgroundColor', 'yellow');
+        }
     });
 });
 

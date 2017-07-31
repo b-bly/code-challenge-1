@@ -1,3 +1,16 @@
 .generateDiv {
     background-color: red;
+    border-radius: 5px;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+}
+
+.swapButton, .deleteButton {
+    background: skyblue;
+    color: white;
+    border-radius: 6px;
+    display: flex;
+    padding: 5px;
+    margin: 8px;
 }
